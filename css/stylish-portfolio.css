@@ -22,8 +22,14 @@ body {
     vertical-align: top;
 }
 
+.text-vertical-bottom {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+}
+
 .text-vertical-top img {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .text-vertical-center {
@@ -173,10 +179,114 @@ hr.small {
     -o-background-size: cover;
 }
 
+.courtesy {
+   text-align:left;
+   font-size:8pt;
+   padding-left:5px;
+   padding-top:5px;
+}
+
+.courtesy a {
+	color: #9c9c9c;
+}
+
+.courtesy a:hover {
+	color: white;
+}
+
 /* About */
 
 .about {
     padding: 50px 0;
+}
+
+
+/* Team */
+.team {
+  background: #e4e4e4
+}
+
+.person {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+  width: 100%;
+}
+.person img {
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.person .name {
+  font-size: 24px;
+}
+.person .position {
+  text-transform: uppercase;
+  color: #c3c3c3;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.social {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.social li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.social li a {
+  font-size: 16px;
+  display: table;
+  width: 40px;
+  height: 40px;
+  margin: 0 4px;
+}
+.social li a i {
+  display: table-cell;
+  vertical-align: middle;
+}
+.social li a:hover, .social li a:active, .social li a:focus {
+  text-decoration: none;
+  border-bottom: none;
+}
+.social li a.social-box {
+  background: #6173f4;
+  color: #fff;
+}
+.social li a.social-circle {
+  background: #6173f4;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.social li a:hover {
+  background: #393e46 !important;
+}
+.social.social-box a {
+  background: #6173f4;
+  color: #fff;
+}
+.social.social-circle a {
+  background: #6173f4;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* Services */
@@ -194,9 +304,9 @@ hr.small {
 .callout {
     display: table;
     width: 100%;
-    height: 400px;
+    height: 460px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/AirbusPrize.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -253,6 +363,14 @@ footer {
     background-color: rgb(60, 60, 60);
 	color: white;
     padding: 50px 0;*/
+}
+
+footer a {
+	color: #9c9c9c;
+}
+
+footer a:hover {
+	color: white;
 }
 
 #to-top {
